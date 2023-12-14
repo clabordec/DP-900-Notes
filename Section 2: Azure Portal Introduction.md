@@ -21,19 +21,19 @@
 
   <br>
 
-  - Platform of a Service (PaaS)
-    - Provides a framework for developers that it can build upon and used to create or test or deploy customized applications
-    - The goal is to help create an application quickly without managing the underlying infrastructure
-    - All server storage networking is managed by the cloud provider, while the developer maintains the management of the application
-    - Do not worry about patching or upgrade, that will get taken care of by the cloud provider (AWS, Azure, GCP, etc)
-    - It's like taking a Uber or taxi, you don't have to worry about the registration of the car or the proper gas for the car, you just need to focus on were you want to go by giving the proper navigation to the driver
+- Platform of a Service (PaaS)
+  - Provides a framework for developers that it can build upon and used to create or test or deploy customized applications
+  - The goal is to help create an application quickly without managing the underlying infrastructure
+  - All server storage networking is managed by the cloud provider, while the developer maintains the management of the application
+  - Do not worry about patching or upgrade, that will get taken care of by the cloud provider (AWS, Azure, GCP, etc)
+  - It's like taking a Uber or taxi, you don't have to worry about the registration of the car or the proper gas for the car, you just need to focus on were you want to go by giving the proper navigation to the driver
    
   <br>
 
-  - Software as a Service
-    - Enjoy the service, pay the fees, but you don't manage anything at all
-    - Everything is managed by the vendor
-    - SaaS is a software that is essentially hosted and managed for the end customer
-    - It is usually based on an architecture where one version of the application is used for all customers
-    - Applications are ran directly through the web browsers and do not require any downloads or installation
-    - E.g. Gmail
+- Software as a Service
+  - Enjoy the service, pay the fees, but you don't manage anything at all
+  - Everything is managed by the vendor
+  - SaaS is a software that is essentially hosted and managed for the end customer
+  - It is usually based on an architecture where one version of the application is used for all customers
+  - Applications are ran directly through the web browsers and do not require any downloads or installation
+  - E.g. Gmail
