@@ -45,4 +45,40 @@ Example - audio and video files, and binary data files
 
 # Data File Formats
 
- 
+## How to choose file formats?
+
+- Type of data (structured, semi-structured, unstructured)
+- How applications will read or write
+  - If you have a OLTP system or transactional system, then you'll be dealing with a lot of writing statements.
+  - If you have an OLAP system or analystical system such as a data warehouse, you'll read data more efficiently. 
+- How data is going to be used - Storage vs processing?
+
+<br>
+
+## Delimited text files
+
+- Data is stored in plain text format with specific field delimeters and row terminators
+- Common formats
+ - Comma-separated values (CSV)
+ - Tab-separated values (TSV)
+- Advantages:
+ - Easy to read and parse
+- Disadvantages
+ - Difficult to parse if data itself has commas
+ - Data type is not forced consistent
+
+<br>
+
+## Extensible Markup Language (XML)
+
+- Used tags enclosed in brackets `(<../>)` to define elements and attributes
+- Created to store and transport data without being dependent on software or hardware tools
+
+<br>
+
+## Javascript Object Notation (JSON)
+
+- Stored with the .json extension
+- Supported by most programming languages
+- Widely accepted format on the web
+ - Can be shard across the network
