@@ -186,3 +186,35 @@ Example - audio and video files, and binary data files
 - Consolidated and summarized
 - TB and above scale
 - No limit, pause/resume compute
+
+<br>
+<br>
+
+# Roles and Responsibilities for Data Warehouse
+
+## Database Administrator
+
+- Manage databases, assigning permissions to users, storing backup copies of data and restore data in the event of failure
+- Responsible for the design, implementation, maintenance, and operational aspects of on-premises and cloud-based database systems
+- Responsible for the overall availability and consistent perfromance and optimizations of databases
+- Work with stakeholders to implement policies, tools and processes for backup and recovery plans to recover following a natural disaster or human-made error
+- Manage the security of the data in the database, granting privileges over the data, granting or denying access to users as appropriate
+
+<br>
+
+## Data Engineers
+
+- Manage infrastructure and processes for data integration across the organiztion, applying data cleaning routines, identifying data governance rules, and implementing pipelines to transfer and transform data between systems
+- Design and implement data-related workloads, including data ingestion pipelines, cleansing and transformation activites, and data stores for analytical workloads
+- Use a wide range of data platform technologies, including relational and non-relation databases, file stores and data streams
+- Ensure that the privacy of data is maintained within the cloud and spanning from on-premises to the cloud data stores
+- Management and monitoring of data pipelines to ensure that data loads perform as expected
+
+<br>
+
+## Data Analysts
+
+- Enables businesses to mazimize the value of their data assets
+  - Explore and analyze data to create visulaiztions and charts that enable organizations to make informed decisions
+- Responsible for exploring data to identify trends and relationships, designing and building analytical models, and enabling advanced analytics capabilities through reports and visualizations
+- Processes raw data into relevant insights based on identified business requirements to deliver relevant insights.
