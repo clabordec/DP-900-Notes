@@ -66,3 +66,38 @@ Split an entity into more than one table <br>
 - A table can contain any number of rows
 - A primary key uniquely identifies each row in a table. No two rows can share the same primary key
 - A foreign key references rows in another, related table. For each value in the foreign key column, there should be a row with the same value in the corresponding primary key column in the other table
+
+<br>
+
+# Relational Data Structure
+
+## Non-clustered Index - Good or Bad
+
+- Non-cluster Indexes consume additional storage space
+- Each time you insert, update, or delete data in a table, the indexes for that table must be maintained
+- Recommendations
+  - Read only table - more indexes will improve query performance
+  - Transaction table - more indexes on that table can slow your system down
+  - You must strike a balance between having indexes that speeds up your queries versus the cost performing other operations
+
+<br>
+
+## What is a View
+
+- View is a virtual table based on the result set of a query
+  - View does not store data but very much behave like a table
+  - You can query view like a table
+- A view can combine data from two or more tables, using joins, and also just contain a subset of information. This makes them convenient to abstract, or hide complicated queries.
+
+<br>
+<br>
+
+# Provisioning and Deployment
+
+## What is provisioning and deployment
+
+- Provisioning and deployment means to execute series of steps to create and configure a service
+  - We need to provide parameters that provides a estimate of the size of the workload that we want to run
+  - Behind the scenes Azure will create other required resources: Disks, memory, CPUs, network and so on
+  - You will be charged for these resources until you delete them
+  - We can scale dynamically 
