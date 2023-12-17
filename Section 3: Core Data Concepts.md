@@ -220,3 +220,10 @@ Example - audio and video files, and binary data files
   - Explore and analyze data to create visulaiztions and charts that enable organizations to make informed decisions
 - Responsible for exploring data to identify trends and relationships, designing and building analytical models, and enabling advanced analytics capabilities through reports and visualizations
 - Processes raw data into relevant insights based on identified business requirements to deliver relevant insights.
+
+<br>
+<br>
+
+# Data Ingestion and Processing
+
+## Data Ingestion
