@@ -245,3 +245,27 @@ Example - audio and video files, and binary data files
 - Data Cleaning: removing anomalies, and applying filters and transformations
 - Data Wrangling: capture, filter, clean, combine and aggregate data
 
+<br>
+<br>
+
+# ETL vs ELT
+
+## ETL (Extract, Transform and Load)
+
+- Raw data is retrieved and transformed before being saved
+- Suitable for systems that only require simple models
+- Basic data cleaning tasks, deduplicating data, and reforamtting the contents of individual fields.
+- Stream-oriented approach - emphasis on throughput
+- ETL can help with data privacy and compliance, removing sensitive data before it arrives in your analytical data models
+- Performed as a continuous pipeline of operations
+- SSIS can be used
+
+<br>
+
+## ELT (Extract, Load and Transform)
+
+- Data is stored before being transformed
+- More suitable for constructing complex models
+- Iterative approach, often using periodic batch processing
+- Suitable for the cloud
+- Azure Data Factory - create and schedule data-driven workflows, using compute services such as Azure HDInsight Hadoop, Azure Databricks
