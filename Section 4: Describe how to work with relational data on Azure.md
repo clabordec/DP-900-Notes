@@ -48,3 +48,21 @@ Split an entity into more than one table <br>
 - Relational Database NOT use for
   - Music, video, or other media files - Blob storage
   - Social networking sites, highly complex web of relationships - Graph Database
+
+<br>
+
+## Benefits of Relational Database
+
+- Consistency: Maintains data consistency across applications and database queries
+- Commitment and Atomicity: Handles business rules and policies at a very granular level with strict policies
+- Locking and COncurrency: Prevents other users and applications from accessing data while being updated
+
+<br>
+
+## Main characteristics of a relational database are:
+
+- All data is tablular. Entities are modeled as tables, each instance of an entity is a row in the table, and each property is defined as a column
+- All rows in the same table have the same set of columns
+- A table can contain any number of rows
+- A primary key uniquely identifies each row in a table. No two rows can share the same primary key
+- A foreign key references rows in another, related table. For each value in the foreign key column, there should be a row with the same value in the corresponding primary key column in the other table
