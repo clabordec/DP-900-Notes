@@ -101,3 +101,20 @@ Split an entity into more than one table <br>
   - Behind the scenes Azure will create other required resources: Disks, memory, CPUs, network and so on
   - You will be charged for these resources until you delete them
   - We can scale dynamically 
+
+<br>
+
+## Methods of Provisioning and Deployment
+
+- The Azure portal
+  - Convenient but manual
+- The Azure command-line interface (CLI)
+  - Set of commands to create and manage Azure resources specifically
+  - Can run from the operating system command prompt or the CLoud Shell in the Azure portal
+  - Suitable if you need to automate service creation
+- Azure PowerShell
+  - This is a cross-platform task automation and configuration management framework
+  - Command-line shell and scripting language that is built on top of .NET
+  - Azure provides a series of commandlets (Azure-specific commands) that you can use in PowerShell to create and manage Azure resources.
+- Azure Resource Manager templates
+  - JSON (JavaScript Object Notation) file template that describes the service, and can be used to create resources
