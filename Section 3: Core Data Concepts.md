@@ -169,23 +169,25 @@ Example - audio and video files, and binary data files
 
 ## OLTP
 
-- Many small transactions
-- Current data
-- Used to run the business
-- Highly detailed
-- Typically in the GB scale
-- Processing performance limit
+- Day-to-day handling transactions that result from enterprise operation
+  - Many small transactions
+  - Current data
+  - Used to run the business
+  - Highly detailed
+  - Typically in the GB scale
+  - Processing performance limit
 
 <br>
 
 ## OLAP
 
-- Low volume but complex queries
-- Historic, non-volatile data
-- Used to analyze the business
-- Consolidated and summarized
-- TB and above scale
-- No limit, pause/resume compute
+- Analysis of information in a databas efor the purpose of making management descisions
+  - Low volume but complex queries
+  - Historic, non-volatile data
+  - Used to analyze the business
+  - Consolidated and summarized
+  - TB and above scale
+  - No limit, pause/resume compute
 
 <br>
 <br>
