@@ -227,3 +227,21 @@ Example - audio and video files, and binary data files
 # Data Ingestion and Processing
 
 ## Data Ingestion
+
+- Data ingestion is the process of obtaining and importing data
+- Data can arrive as a continous stream or batches
+- Raw data can be stored at DBMS, a set of files, or some other type of fast and easily accessible storage
+- Ingestion might perform:
+  - Filtering: Example reject suspicious, corrupt, or duplicated data
+  - Simple transformation: converting data into a standard form
+    - E.g. reformat all date and time
+
+<br>
+
+## Data Processing
+
+- Data processing takes the data in its raw form, clean it, and converts it into a more meaningful format (tables, graphs, documents, and so on)
+- The result is a database that you can use to perform queries and generate visualizations
+- Data Cleaning: removing anomalies, and applying filters and transformations
+- Data Wrangling: capture, filter, clean, combine and aggregate data
+
