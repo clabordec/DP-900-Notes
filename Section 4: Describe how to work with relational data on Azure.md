@@ -420,3 +420,38 @@ Azure SQL Database, a relational database-as-a-service in the cloud with mission
   - SELECT, UPDATE, DELETE
 - Data-Control Language (DCL)
   - GRANT and REVOKE
+
+<br>
+
+## Identify the right data offering
+
+- Azure SQL Server
+  - Needs to perform high-speed online transaction processing (OLTP) operations
+  - Highly normalized with enforced schemas
+  - Requires high integrity and strong consistency
+  - Relationships are maintained between data tables
+  - Example - Inventory management and finance and accounting system
+- Azure Synapse Analytics (Azure Data Warehouse)
+  - Enterprise data analytics system workload
+  - Provides a set of tools to organize and analyze enterprise data
+  - MPP Architecture
+- Azure Cosmos DB
+  - Mainly targeted for non-relational data stores
+- Azure Blob storage / Azure Data Lake
+  - Store binary data - Images, videos
+
+<br>
+
+## Identify the right data offering for a relational workload
+
+- Azure SQL Server - Single Database
+  - Up to date relational database service
+  - Not fully compatible with on-prem
+- Azure SQL Server - Managed instance
+  - Most of PaaS benefits + high compatibility
+  - Lift and Shift your on-prem databases
+- Azure SQL Server - Virtual Machine
+  - Install specific version of SQL Server on virtual machine
+  - Allow operating system level access
+- PostgreSQL, MySQL, MariaDB
+  - Deploy existing on-prem database to Azure
