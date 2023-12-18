@@ -342,3 +342,5 @@ Azure SQL Database, a relational database-as-a-service in the cloud with mission
 - Doesn't support connecting to the master database
 - 5-minute timeout for query execution
 - No support for IntelliSense for database tables and views
+
+
