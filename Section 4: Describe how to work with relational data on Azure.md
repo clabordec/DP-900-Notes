@@ -375,5 +375,5 @@ Azure SQL Database, a relational database-as-a-service in the cloud with mission
   - Need the ability to quickly chart and visualize result sets
   - Can execute most administrative tasks via the integrated terminal using aqlcmd or PowerShell
   - Have minimal need for wizard experiences
-  - <ins>Do not need to do deep administrative or platform related configuration</ins>
+  - <ins>Do not need to do deep administrative</ins> or platform related configuration
   - Need to run on macOS or Linux
