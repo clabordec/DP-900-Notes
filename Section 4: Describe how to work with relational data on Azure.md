@@ -377,3 +377,46 @@ Azure SQL Database, a relational database-as-a-service in the cloud with mission
   - Have minimal need for wizard experiences
   - <ins>Do not need to do deep administrative</ins> or platform related configuration
   - Need to run on macOS or Linux
+
+<br>
+
+## SQLCMD
+
+- Command line utility
+- Execute T-SQL statements, stored procs, and script files
+- Uses ODBC to execute Transact-SQL batches
+- Windows and Linux options (RHEL, Ubuntu, SUSE)
+- MacOS in preview
+- Can run in a docker container
+
+<br>
+<br>
+
+# Introduction to SQL
+
+## SQL - Structured Query Language
+
+- Structured Query Language (SQL)
+  - Used to communicate with a relational database
+  - First developed as SEQUEL in the early 1970s
+  - SQL standard first formalized in 1986 as SQL-86, now up to SQL:2019
+- Database Providers
+  - Each database enginer has its own version of SQL that extends the standard for its own purpose, usually to add programming elements (stored procs!)
+  - Most vendor version of SQL are not 100% compatible with the standard
+  - SQL Server - Transact-SQL (T-SQL)
+  - Oracle - PL/SQL (Procedural Language/SQL)
+  - MySQL - SQL/PSM
+  - PostgreSQL - PL/pgSQL
+  - They are not often compatible - an Oracle PL/SQL command would not work unaltered on SQL Server
+
+<br>
+
+## DDL vd DML vs DCL
+
+- Data-Definition Language (DDL)
+  - CREATE, ALTER, DROP, TRUNCATE, RENAME
+- Data-Manipulation Language (DML)
+  - DML statements to manipulate the rows in a relational table
+  - SELECT, UPDATE, DELETE
+- Data-Control Language (DCL)
+  - GRANT and REVOKE
