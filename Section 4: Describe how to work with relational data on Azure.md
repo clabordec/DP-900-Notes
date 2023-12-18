@@ -344,3 +344,36 @@ Azure SQL Database, a relational database-as-a-service in the cloud with mission
 - No support for IntelliSense for database tables and views
 
 
+<br>
+
+## SQL Server Management Studio (SSMS)
+
+- Integrated environment for managing any SQL Infrastructure
+- Use SSMS to access, configure, manage, administer and develop all components of SQL Server, Azuer SQL Database, and Azure Synapse Analytics
+- Support database administration tasks
+  - User management, vulnerability assessment, security features
+  - Performance tuning advisors
+  - Import and Export of DACPAC files
+
+<br>
+
+## Azure Data Studio
+
+- Cross-platform database tool
+- Can be used for both on-premises and cloud data platforms
+- Works with Windows, Mac OS and Linux
+- Intellisense, code snippets, source control integration and integrated terminal
+- Charting of query results, customizable dashboards
+- Open source, free
+
+<br>
+
+## Azure Data Studio vs SSMS
+
+- Use Azure Data Studio if you:
+  - Are mostly editing or executing queries
+  - Need the ability to quickly chart and visualize result sets
+  - Can execute most administrative tasks via the integrated terminal using aqlcmd or PowerShell
+  - Have minimal need for wizard experiences
+  - <ins>Do not need to do deep administrative or platform related configuration</ins>
+  - Need to run on macOS or Linux
