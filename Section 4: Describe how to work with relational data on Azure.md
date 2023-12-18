@@ -118,3 +118,227 @@ Split an entity into more than one table <br>
   - Azure provides a series of commandlets (Azure-specific commands) that you can use in PowerShell to create and manage Azure resources.
 - Azure Resource Manager templates
   - JSON (JavaScript Object Notation) file template that describes the service, and can be used to create resources
+
+<br>
+<br>
+
+# What is Azure SQL Database
+
+Azure SQL Database, a relational database-as-a-service in the cloud with mission critical capabilities.
+
+<br>
+
+## Why SQL Server in Azure?
+
+- Fully managed
+- Predictable performance and pricing
+- Elastic pool for unpredictable workloads
+- 99.99% availability built-in
+- Goe-replication services
+- Supports existing SQL Server tools, libraries and APIs
+- Scalability with no downtime
+- Secure and compliant for your sensitive data
+
+<br>
+<br>
+
+# Azure IaaS vs Pass Database offering
+
+- SQL Server on Azure VMs
+  - SQL Server inside a fully-managed VM in Azure
+  - Iaas
+  - Migrate without any database change
+  - Full control over database engine
+  - Can bring existing license
+
+<br>
+
+- Azure SQL Database
+  - Database-as-a-service (DBaaS) hosted in Azure
+  - PaaS
+  - Additional features
+  - Pay-as-you-go service
+  - Multiple deployment options and tiers
+
+<br>
+
+## Responsibility comparison
+
+- SQL Server on Azure VMs
+  - Maintain operating system
+  - Maintain SQL Server
+  - High Availability
+  - Disaster recovery
+  - Performance
+  - Change control
+  - Security
+
+<br>
+
+- Azure SQL Database
+  - Security
+  - Change control
+  - Performance
+  - Test the high availability and Disaster recovery
+  - Choosing the right service tier
+
+<br>
+
+## Benefits comparison
+
+- SQL Server on Azure VMs
+  - Full control over sql server engine
+  - Full parity with matching version of on-premises sql server
+  - Easy migration from SQL Server on-premises
+  - Private IP address within azure VNet
+  - 99.99% availability
+
+<br>
+
+- Azure SQL Database
+  - Build in advanced intelligence and security
+  - Ability to assign necessary resources (CPU/Storage) to individual databases
+  - Build-in backups, patching, recovery
+  - Most commonly used sql server features are available
+  - Online change of resources (CPU/Storage) with no downtime
+  - 99.99% availability guaranteed
+
+<br>
+<br>
+
+# Azure Database Deployment options
+
+- Azure database Offerings
+  - IaaS
+    - Deployment option in virtual machine platform
+  - PaaS
+    - Deployment options such as: Single Database, Elstic Pool Managed Instance
+   
+<br>
+
+## SQL Server (PaaS) Deployment Options
+
+- Single database
+  - Isolated database that is perfect for a application that needs a single data source
+  - Each DB with its own guaranteed compute, memory and storage
+- Elastic pool
+  - Fixed resources will be shared by all databases in the pool
+  - Collection of single databases with a shared set of resources such as CPU or memory
+- Managed Instance
+  - Each managed instance has its guaranteed resources
+  - A set of databases that can be used together, easy migration of on-premises databases
+
+<br>
+
+## SQL Server on Virtual Machine
+
+- Full version of SQL Server in the Cloud
+- Geographic regions
+- Variety of configuration to choose
+- Automatic updates
+- Automatic backups
+- High Availability
+- Performance
+
+<br>
+<br>
+
+# Azure SQL DB vs. Azure SQL DW
+
+- Azure SQL Database
+  - OLTP/CRUD
+  - SMP (Symmetric Multi Processing)
+  - Vertical Scale
+  
+<br>
+
+- Azure SQL Data Warehouse
+  - OLAP/querting and reporting
+  - MPP (Massively Parallel Processing)
+  - Horizontal Scale
+  - Can pause the virtual server to save cost
+  - Polybase
+
+<br>
+<br>
+
+# Azure Data Services
+
+### MySQL
+
+- Simple to use open source database management
+- Can be used for Linux, Apache, MySQL, and PHP (LAMP) stack apps
+- Several editions: Community, Standard, and Enterprise
+
+### Benefits of Azure Database for MySQL
+
+- High availability
+- Scalable
+- Secure data, both at rest and in motion
+- Automatic backups and point-in-time restore for the last 35 days
+- Enterprise-level security and compliance with legislation
+- Azure Database for MySQL servers provides monitoring functionality to add alerts, and to view metrics and logs
+
+<br>
+
+### MariaDB
+
+- New DBMS, created by the original developers of MySQL
+- Compatibility with Oracle Database
+- Optimized to improve performance
+- Built-in support for temporal data
+
+### Benefits of Azure Database for MariaDB
+
+- Fully managed and controlled by Azure
+- Built-in high availability with no additional cost
+- Predictable performance, using inclusive pay-as-you-go pricing
+- Scaling as needed within seconds
+- Secured protection of sensitive data at rest and in motion
+- Automatic backups and point-in-time-restore for up to 35 days
+- Enterprise-grade security and compliance
+
+<br>
+
+### PostgreSQL
+
+- Hybrid relational-object database
+- Enables you to store custom data types, with their own non-relational properties
+- Code modules can be added
+- Manipulate geometric data, such as lines, circles, and polygons
+- pgsql
+
+### Benefits of Azure Database For PostgreSQL
+
+- Provides the same availability, performance, scaling, security, and administrative benefits
+- Some features of on-premises PostegreSQL databases are not available in Azure Database for PostgreSQL
+- Continue to use pgAdmin tool
+
+<br>
+
+## Migrate data to Azure
+
+- Azure Database Migration Service (DMS)
+  - Enables you to restore a backup of your on-premise databases directly to databases running in Azure Data Services
+- Replication from an on-premises database
+
+<br>
+<br>
+
+# Identify Query Tools
+
+- Azure Portal
+- SQL Server Management Studio (SSMS)
+- Azure Data Studio
+- Sqlcmd Utility
+- Visual Studio Code
+
+<br>
+
+## Azure Portal
+
+- Query editor built in to the portal
+- Execute queries against your database in Azure SQL Database or data warehouse in Azure Synapse Analytics
+- Doesn't support connecting to the master database
+- 5-minute timeout for query execution
+- No support for IntelliSense for database tables and views
