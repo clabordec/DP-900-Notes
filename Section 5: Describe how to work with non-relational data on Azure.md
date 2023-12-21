@@ -24,3 +24,20 @@
 
 - Add more commodity machines in a system
 
+<br>
+
+## NoSQL Use Cases
+
+- Big data and real-time web applications
+- Relationship between data is not important
+- Data change frequently
+
+<br>
+
+## NoSQL Limitations
+
+- Schema-less data means inconsistent data
+- Denormalized data means redundant data
+- Redundant data means inaccuracies and conflicts
+- Dose not support many good features of Relational DB
+  - Examples: Stored procedures, views, row level security, locks, etc.
