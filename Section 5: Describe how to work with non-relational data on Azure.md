@@ -41,3 +41,32 @@
 - Redundant data means inaccuracies and conflicts
 - Dose not support many good features of Relational DB
   - Examples: Stored procedures, views, row level security, locks, etc.
+
+<br>
+<br>
+
+# SQL vs NoSQL
+
+## SQL
+
+- Relational database
+- Fixed schema
+- Designed for complex queries
+- SQL, MySQL, Oracle, Postgres
+- Vertical scaling
+- Row Oriented
+- Tables
+- Limited for big data
+
+<br>
+
+## NoSQL
+
+- Non-relational or distributed
+- Dynamic
+- Not for complex queries
+- MongoDB, Redis, Hbase
+- Horizontal scaling
+- Multi-model oriented
+- Collections
+- Great for big data
